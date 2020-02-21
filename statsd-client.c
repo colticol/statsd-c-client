@@ -13,7 +13,7 @@
 #define TAG "statsd-client"
 #endif
 
-#define MAX_MSG_LEN 100
+#define MAX_MSG_LEN 256
 
 statsd_link *statsd_init_with_namespace(const char *host, int port, const char *ns_)
 {
